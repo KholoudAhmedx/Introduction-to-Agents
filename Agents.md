@@ -56,3 +56,10 @@ LLMs takes **text** as input and produces **text** as output. </br>
 # How Does Agents Act?
 Despite agents are using LLMs which take input as text and produce output as text, they are still able to take actions. The reason is that agents leverages **tools** that help them take actions on their env. </br>
 Similar to chat applications such as ChatGPT that use LLMs but still can generate images, the reason is that developers of the apps implemented additional functionality (called **tools**) that LLM can use to create images. </br>
+
+Agents can perform any task we implement via **tools** to accomplish an action. </br>
+
+>[!Note]
+>The design of the Tools is very important and has a great impact on the quality of your Agent. </br>
+>Tools are not actions. Tools are the method that help accomplishing the action. Actions are the desired objective. </br>
+>Examples of agents are virtual personal assistance like Siri & Google Assistant. </br>
