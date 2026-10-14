@@ -36,3 +36,23 @@ There are two main approaches to building AI agents: </br>
 - Agentic CLIs (e.g., Claude Code, Codex, Pi): The execution system is already built. You customize the agent's behavior through natural-language instructions, skills, rules, and configuration files.
 
 Key difference: With frameworks, you program how the agent operates. With agentic CLIs, you configure an existing agent to perform your tasks.
+
+# AI Models 
+AI models come in different types depending on what they are designed to do, what data they process, and what they proceed. </br>
+
+| AI Model Type | What it does | Examples | Where it's used |
+|---|---|---|---|
+| **Large Language Models (LLMs)** | Understand and generate language, reason, and write code | GPT, Claude, Llama | Chatbots, coding assistants, AI agents |
+| **Image Generation Models** | Generate or edit images from instructions | GPT Image, Stable Diffusion, FLUX | Graphic design, marketing, image editing |
+| **Computer Vision Models** | Analyze and understand images or videos | YOLO, ResNet, SAM | Facial recognition, object detection, medical imaging |
+
+The most common AI model used in Agents is **LLMs (Large Language Models)**. </br>
+LLMs takes **text** as input and produces **text** as output. </br>
+
+>[!Note]
+>Vision Language Model (VLM) is like LLM but understands images as input. </br>
+>It's possible to use models that accept other inputs as the agent's core model. </br>
+
+# How Does Agents Act?
+Despite agents are using LLMs which takes input as text and produces output as text, they are still able to take actions. The reason is that agents leverages **tools** that help them take actions on their env. </br>
+Similar to chat applications that use LLMs but still can generate images, the reason is that developers of the apps implemented additional functionality (called **tools**) that LLM can use to create images. </br>
