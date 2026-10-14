@@ -54,5 +54,5 @@ LLMs takes **text** as input and produces **text** as output. </br>
 >It's possible to use models that accept other inputs as the agent's core model. </br>
 
 # How Does Agents Act?
-Despite agents are using LLMs which takes input as text and produces output as text, they are still able to take actions. The reason is that agents leverages **tools** that help them take actions on their env. </br>
-Similar to chat applications that use LLMs but still can generate images, the reason is that developers of the apps implemented additional functionality (called **tools**) that LLM can use to create images. </br>
+Despite agents are using LLMs which take input as text and produce output as text, they are still able to take actions. The reason is that agents leverages **tools** that help them take actions on their env. </br>
+Similar to chat applications such as ChatGPT that use LLMs but still can generate images, the reason is that developers of the apps implemented additional functionality (called **tools**) that LLM can use to create images. </br>
